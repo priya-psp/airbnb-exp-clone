@@ -1,2 +1,2 @@
 # airbnb-exp-clone
-practice using bootstrap v.5
+ bootstrap v5 practice pg
