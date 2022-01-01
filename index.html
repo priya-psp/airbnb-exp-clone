@@ -4,46 +4,622 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Online Experience</title>
+    <link rel="icon" href="./images/airbnb-logo.jpeg" type="image/x-icon">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light d-none d-md-flex">
-      <div class="container-fluid">
-        <a class="navbar-brand"  href="#"><img src="./images/airbnb-logo.jpeg" class="img-fluid" align-top class="d-inline-block" width="40">airbnb</a>
-        <button class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-toggler="#navbarSupportContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!-- ml=me -->
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Become a Host</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"  data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="fas-globe"></i>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            </div>
-            <ul class="dropdown-menu" aria-labelledby="navbardropdown">
-              <li><a class="dropdown-item" href="#"><b>Sign up</b></a></li>
-              <li><a class="dropdown-item" href="#">Log in</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Host your home</a></li>
-              <li><a class="dropdown-item" href="#">Host your experience</a></li>
-              <li><a class="ropdown-item" href="#">Help</a></li>
-            </ul>
-          </li>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-md navbar-light d-none d-md-flex shadow-">
+      <div class="container-xxl">
+        <a class="navbar-brand text-danger ms-2" href="#"><i class="fab fa-airbnb"></i> airbnb</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item rounded-pill btn btn-sm btn-outline-light py-0 px-1 border-0">
+              <a class="nav-link active" aria-current="page" href="#">Become a host</a>
+            </li>
+            <li class="nav-item rounded-pill btn btn-sm btn-outline-light py-0 px-1 border-0">
+              <a class="nav-link" href="#"><i class="fas fa-globe"></i></a>
+            </li>
+            <li class="nav-item dropdown rounded-pill btn btn-sm btn-outline-light py-0 px-1 border">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-user-circle"></i>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end rounded-3 mt-2" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Sign up</a></li>
+                <li><a class="dropdown-item" href="#">Log in</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Host your home</a></li>
+                <li><a class="dropdown-item" href="#">Host an experience</a></li>
+                <li><a class="dropdown-item" href="#">Help</a></li> 
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
+
+    <!-- Hero content -->
+
+    <!-- card 1-->
+    <div class="container-xxl">
+      <h3 class="my-4">New this week</h3>
+      <div class="row flex-nowrap overflow-scoll">
+        <div class="col-11 col-sm-9 col-md-8 col-lg-5">
+          <div class="rounded-3 text-white collection position-relative">
+            <div class="p-3 d-flex flex-column align-items-start position-absolute inner">
+              <p class="mb-0"><small>Collection</small></p>
+              <h4 class="mb-auto">Plan a trip with tips from a local</h4>
+              <button class="btn btn-sm rounded-3 btn-light">Show all</button>
+            </div>
+          </div>
+        </div>
+
+    <!-- card 2 -->
+    <div class="col-11 col-sm-9 col-md-8 col-lg-5">
+      <div class="rounded-3 text-white collection position-relative">
+        <div class="p-3 d-flex flex-column  align-items-start position-absolute inner">
+          <p class="mb-0"><small>Collecction</small></p>
+          <h4 class="mb-auto">Most popular around the world</h4>
+          <button class="btn btn-sm rounded-3 btn-light">Show all</button>
+          </div>
+        </div>
+      </div>
+
+     <!-- card 3 -->
+     <div class="col-11 col-sm-9 col-md-8 col-lg-5">
+      <div class="rounded-3 text-white collection position-relative">
+        <div class="p-3 d-flex flex-column  align-items-start position-absolute inner">
+          <p class="mb-0"><small>Collecction</small></p>
+          <h4 class="mb-auto">Most popular around the world</h4>
+          <button class="btn btn-sm rounded-3 btn-light">Show all</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- card 4-->
+      <div class="col-11 col-sm-9 col-md-8 col-lg-5">
+       <div class="rounded-3 text-white collection position-relative">
+          <div class="p-3 d-flex flex-column  align-items-start position-absolute inner">
+              <p class="mb-0"><small>Collecction</small></p>
+              <h4 class="mb-auto">Most popular around the world</h4>
+              <button class="btn btn-sm rounded-3 btn-light">Show all</button>
+            </div>
+          </div>
+        </div>
+
+      <!-- card 5 -->
+      <div class="col-11 col-sm-9 col-md-8 col-lg-5">
+        <div class="rounded-3 text-white collection position-relative">
+           <div class="p-3 d-flex flex-column  align-items-start position-absolute inner">
+               <p class="mb-0"><small>Collecction</small></p>
+               <h4 class="mb-auto">Most popular around the world</h4>
+               <button class="btn btn-sm rounded-3 btn-light">Show all</button>
+             </div>
+           </div>
+         </div>
+
+      <!-- card 6 -->
+      <div class="col-11 col-sm-9 col-md-8 col-lg-5">
+        <div class="rounded-3 text-white collection position-relative">
+           <div class="p-3 d-flex flex-column  align-items-start position-absolute inner">
+               <p class="mb-0"><small>Collecction</small></p>
+               <h4 class="mb-auto">Most popular around the world</h4>
+               <button class="btn btn-sm rounded-3 btn-light">Show all</button>
+             </div>
+           </div>
+         </div>
+      </div>
+
+      <!-- filters -->
+      <ul class="nav nav-pills pt-4 pb-2 flex-nowrap 
+      overflow-scroll experience-filter">
+        <li class="nav-item">
+          <a class="nav-link border border-secondary py-1 rounded-pill text-dark me-2" href="#">Filters</a>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link border border-secondary py-1 rounded-pill text-dark me-2" href="#">Dates</a>
+            </li>
+            <li class="nav-item border-end border-secondary me-2 ">
+              <a class="nav-link bg-light border border-secondary  py-1 rounded-pill text-dark me-2" href="#">Group size</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-light border border-light py-1 rounded-pill text-dark me-2" href="#">Great for groups</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-light border border-light py-1 rounded-pill text-dark me-2" href="#">Family friendly</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-light border border-light py-1 rounded-pill text-dark me-2" href="#">Animals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-light border border-light py-1 rounded-pill text-dark me-2" href="#">Arts & writing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-light border border-light py-1 rounded-pill text-dark me-2" href="#">Baking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-light border border-light py-1 rounded-pill text-dark me-2" href="#">Cooking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-light border border-light py-1 rounded-pill text-dark me-2" href="#">Dance</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-light border border-light py-1 rounded-pill text-dark me-2" href="#">Drinks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-light border border-light py-1 rounded-pill text-dark me-2" href="#">Entertainment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-light border border-light py-1 rounded-pill text-dark me-2" href="#">Fitness</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-light border border-light py-1 rounded-pill text-dark me-2" href="#">History & culture</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-light border border-light py-1 rounded-pill text-dark me-2" href="#">Magic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-light border border-light py-1 rounded-pill text-dark me-2" href="#">Music</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link bg-light border border-light py-1 rounded-pill text-dark me-2" href="#">Social impact</a>
+              </li>
+            </ul>
+          </div>
+
+          <hr/>
+
+          <!-- Experience section -->
+          <!-- first group- "Plan a trip" -->
+          <div class="container-xxl mb-5">
+            <h4 class="my-4">Plan a trip with help from local Hosts around the world</h4>
+            <div class="row flex-nowrap overflow-scroll">
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>5.0 <span class="text-secondary">(1) · United States</span></small></p>
+                  <p class="mb-1">Plan a perfect Los Angeles Getaway</p>
+                  <p class="mb-0"><b>From $10 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>5.0 <span class="text-secondary">(1) · United States</span></small></p>
+                  <p class="mb-1">Plan a perfect Los Angeles Getaway</p>
+                  <p class="mb-0"><b>From $10 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>5.0 <span class="text-secondary">(1) · United States</span></small></p>
+                  <p class="mb-1">Plan a perfect Los Angeles Getaway</p>
+                  <p class="mb-0"><b>From $10 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>5.0 <span class="text-secondary">(1) · United States</span></small></p>
+                  <p class="mb-1">Plan a perfect Los Angeles Getaway</p>
+                  <p class="mb-0"><b>From $10 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>5.0 <span class="text-secondary">(1) · United States</span></small></p>
+                  <p class="mb-1">Plan a perfect Los Angeles Getaway</p>
+                  <p class="mb-0"><b>From $10 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>5.0 <span class="text-secondary">(1) · United States</span></small></p>
+                  <p class="mb-1">Plan a perfect Los Angeles Getaway</p>
+                  <p class="mb-0"><b>From $10 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>5.0 <span class="text-secondary">(1) · United States</span></small></p>
+                  <p class="mb-1">Plan a perfect Los Angeles Getaway</p>
+                  <p class="mb-0"><b>From $10 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>5.0 <span class="text-secondary">(1) · United States</span></small></p>
+                  <p class="mb-1">Plan a perfect Los Angeles Getaway</p>
+                  <p class="mb-0"><b>From $10 USD</b> / person</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- second group-"Best sellers" -->
+          <div class="container-xxl mb-5 pt-4">
+            <h4 class="my-4">Best sellers</h4>
+            <div class="row flex-nowrap overflow-scroll">
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience best">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>4.9 <span class="text-secondary">(1,593) · Poland</span></small></p>
+                  <p class="mb-1">Solve the Mysterry Escape Room</p>
+                  <p class="mb-0"><b>From $12 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience best">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>4.9 <span class="text-secondary">(1,593) · Poland</span></small></p>
+                  <p class="mb-1">Solve the Mysterry Escape Room</p>
+                  <p class="mb-0"><b>From $12 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience best">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>4.9 <span class="text-secondary">(1,593) · Poland</span></small></p>
+                  <p class="mb-1">Solve the Mysterry Escape Room</p>
+                  <p class="mb-0"><b>From $12 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience best">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>4.9 <span class="text-secondary">(1,593) · Poland</span></small></p>
+                  <p class="mb-1">Solve the Mysterry Escape Room</p>
+                  <p class="mb-0"><b>From $12 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience best">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>4.9 <span class="text-secondary">(1,593) · Poland</span></small></p>
+                  <p class="mb-1">Solve the Mysterry Escape Room</p>
+                  <p class="mb-0"><b>From $12 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience best">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>4.9 <span class="text-secondary">(1,593) · Poland</span></small></p>
+                  <p class="mb-1">Solve the Mysterry Escape Room</p>
+                  <p class="mb-0"><b>From $12 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience best">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>4.9 <span class="text-secondary">(1,593) · Poland</span></small></p>
+                  <p class="mb-1">Solve the Mysterry Escape Room</p>
+                  <p class="mb-0"><b>From $12 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience best">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>4.9 <span class="text-secondary">(1,593) · Poland</span></small></p>
+                  <p class="mb-1">Solve the Mysterry Escape Room</p>
+                  <p class="mb-0"><b>From $12 USD</b> / person</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- reserve for THIRD GROUP "Starting in the next 6 hours" -->
+          <div class="container-xxl mb-5 pt-4">
+            <h4 class="my-4">Starting in the next 6 hours</h4>
+            <div class="row flex-nowrap overflow-scroll">
+              <div class="col-12 col-md-6 col-xl-4 starting">
+                <div class="border rounded-3 d-flex p-2">
+                  <div class="img-card-wrapper me-2">
+                    <div class="img-card rounded-3 border border-light">
+                    </div>
+                  </div>
+                  <div class="text-box">
+                    <p class="mb-0"><small>4.94 <span class="text-secondary">(566) · Indonesia</span></small></p>
+                    <p class="mb-1">Haunted Mansion Escape Room Mystery Game</p>
+                    <p class="mb-3"><b>From $13 USD</b> / person</p>
+                    <button class="btn border border-dark rounded-3 btn-sm"><small>5:00 PM</small></button>
+                    <button class="btn border border-dark rounded-3 btn-sm"><small>9:00 PM</small></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-4 starting">
+                <div class="border rounded-3 d-flex p-2">
+                  <div class="img-card-wrapper me-2">
+                    <div class="img-card rounded-3 border border-light">
+                    </div>
+                  </div>
+                  <div class="text-box">
+                    <p class="mb-0"><small>4.94 <span class="text-secondary">(566) · Indonesia</span></small></p>
+                    <p class="mb-1">Haunted Mansion Escape Room Mystery Game</p>
+                    <p class="mb-3"><b>From $13 USD</b> / person</p>
+                    <button class="btn border border-dark rounded-3 btn-sm"><small>5:00 PM</small></button>
+                    <button class="btn border border-dark rounded-3 btn-sm"><small>9:00 PM</small></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-4 starting">
+                <div class="border rounded-3 d-flex p-2">
+                  <div class="img-card-wrapper me-2">
+                    <div class="img-card rounded-3 border border-light">
+                    </div>
+                  </div>
+                  <div class="text-box">
+                    <p class="mb-0"><small>4.94 <span class="text-secondary">(566) · Indonesia</span></small></p>
+                    <p class="mb-1">Haunted Mansion Escape Room Mystery Game</p>
+                    <p class="mb-3"><b>From $13 USD</b> / person</p>
+                    <button class="btn border border-dark rounded-3 btn-sm"><small>5:00 PM</small></button>
+                    <button class="btn border border-dark rounded-3 btn-sm"><small>9:00 PM</small></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-4 starting">
+                <div class="border rounded-3 d-flex p-2">
+                  <div class="img-card-wrapper me-2">
+                    <div class="img-card rounded-3 border border-light">
+                    </div>
+                  </div>
+                  <div class="text-box">
+                    <p class="mb-0"><small>4.94 <span class="text-secondary">(566) · Indonesia</span></small></p>
+                    <p class="mb-1">Haunted Mansion Escape Room Mystery Game</p>
+                    <p class="mb-3"><b>From $13 USD</b> / person</p>
+                    <button class="btn border border-dark rounded-3 btn-sm"><small>5:00 PM</small></button>
+                    <button class="btn border border-dark rounded-3 btn-sm"><small>9:00 PM</small></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-4 starting">
+                <div class="border rounded-3 d-flex p-2">
+                  <div class="img-card-wrapper me-2">
+                    <div class="img-card rounded-3 border border-light">
+                    </div>
+                  </div>
+                  <div class="text-box">
+                    <p class="mb-0"><small>4.94 <span class="text-secondary">(566) · Indonesia</span></small></p>
+                    <p class="mb-1">Haunted Mansion Escape Room Mystery Game</p>
+                    <p class="mb-3"><b>From $13 USD</b> / person</p>
+                    <button class="btn border border-dark rounded-3 btn-sm"><small>5:00 PM</small></button>
+                    <button class="btn border border-dark rounded-3 btn-sm"><small>9:00 PM</small></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-4 starting">
+                <div class="border rounded-3 d-flex p-2">
+                  <div class="img-card-wrapper me-2">
+                    <div class="img-card rounded-3 border border-light">
+                    </div>
+                  </div>
+                  <div class="text-box">
+                    <p class="mb-0"><small>4.94 <span class="text-secondary">(566) · Indonesia</span></small></p>
+                    <p class="mb-1">Haunted Mansion Escape Room Mystery Game</p>
+                    <p class="mb-3"><b>From $13 USD</b> / person</p>
+                    <button class="btn border border-dark rounded-3 btn-sm"><small>5:00 PM</small></button>
+                    <button class="btn border border-dark rounded-3 btn-sm"><small>9:00 PM</small></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-4 starting">
+                <div class="border rounded-3 d-flex p-2">
+                  <div class="img-card-wrapper me-2">
+                    <div class="img-card rounded-3 border border-light">
+                    </div>
+                  </div>
+                  <div class="text-box">
+                    <p class="mb-0"><small>4.94 <span class="text-secondary">(566) · Indonesia</span></small></p>
+                    <p class="mb-1">Haunted Mansion Escape Room Mystery Game</p>
+                    <p class="mb-3"><b>From $13 USD</b> / person</p>
+                    <button class="btn border border-dark rounded-3 btn-sm"><small>5:00 PM</small></button>
+                    <button class="btn border border-dark rounded-3 btn-sm"><small>9:00 PM</small></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-4 starting">
+                <div class="border rounded-3 d-flex p-2">
+                  <div class="img-card-wrapper me-2">
+                    <div class="img-card rounded-3 border border-light">
+                    </div>
+                  </div>
+                  <div class="text-box">
+                    <p class="mb-0"><small>4.94 <span class="text-secondary">(566) · Indonesia</span></small></p>
+                    <p class="mb-1">Haunted Mansion Escape Room Mystery Game</p>
+                    <p class="mb-3"><b>From $13 USD</b> / person</p>
+                    <button class="btn border border-dark rounded-3 btn-sm"><small>5:00 PM</small></button>
+                    <button class="btn border border-dark rounded-3 btn-sm"><small>9:00 PM</small></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fourth group-"Make plans this weekend" -->
+          <div class="container-xxl mb-5 pt-4">
+            <h4 class="my-4">Make plans this weekend</h4>
+            <div class="row flex-nowrap overflow-scroll">
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience weekend">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>4.94 <span class="text-secondary">(566) · Indonesia</span></small></p>
+                  <p class="mb-1">Haunted Mansion Escape Room Mystery Game</p>
+                  <p class="mb-0"><b>From $13 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience weekend">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>4.94 <span class="text-secondary">(566) · Indonesia</span></small></p>
+                  <p class="mb-1">Haunted Mansion Escape Room Mystery Game</p>
+                  <p class="mb-0"><b>From $13 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience weekend">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>4.94 <span class="text-secondary">(566) · Indonesia</span></small></p>
+                  <p class="mb-1">Haunted Mansion Escape Room Mystery Game</p>
+                  <p class="mb-0"><b>From $13 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience weekend">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>4.94 <span class="text-secondary">(566) · Indonesia</span></small></p>
+                  <p class="mb-1">Haunted Mansion Escape Room Mystery Game</p>
+                  <p class="mb-0"><b>From $13 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience weekend">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>4.94 <span class="text-secondary">(566) · Indonesia</span></small></p>
+                  <p class="mb-1">Haunted Mansion Escape Room Mystery Game</p>
+                  <p class="mb-0"><b>From $13 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience weekend">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>4.94 <span class="text-secondary">(566) · Indonesia</span></small></p>
+                  <p class="mb-1">Haunted Mansion Escape Room Mystery Game</p>
+                  <p class="mb-0"><b>From $13 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience weekend">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>4.94 <span class="text-secondary">(566) · Indonesia</span></small></p>
+                  <p class="mb-1">Haunted Mansion Escape Room Mystery Game</p>
+                  <p class="mb-0"><b>From $13 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience weekend">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>4.94 <span class="text-secondary">(566) · Indonesia</span></small></p>
+                  <p class="mb-1">Haunted Mansion Escape Room Mystery Game</p>
+                  <p class="mb-0"><b>From $13 USD</b> / person</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fifth group-"Great for groups" -->
+          <div class="container-xxl mb-5 pt-4">
+            <h4 class="my-4">Great for groups</h4>
+            <div class="row flex-nowrap overflow-scroll">
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience groups">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>5.0 <span class="text-secondary">(1,771) · Italy</span></small></p>
+                  <p class="mb-1">Luca & Lorenzo, Our Family Pasta Recipe</p>
+                  <p class="mb-0"><b>From $20 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience groups">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>5.0 <span class="text-secondary">(1,771) · Italy</span></small></p>
+                  <p class="mb-1">Luca & Lorenzo, Our Family Pasta Recipe</p>
+                  <p class="mb-0"><b>From $20 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience groups">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>5.0 <span class="text-secondary">(1,771) · Italy</span></small></p>
+                  <p class="mb-1">Luca & Lorenzo, Our Family Pasta Recipe</p>
+                  <p class="mb-0"><b>From $20 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience groups">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>5.0 <span class="text-secondary">(1,771) · Italy</span></small></p>
+                  <p class="mb-1">Luca & Lorenzo, Our Family Pasta Recipe</p>
+                  <p class="mb-0"><b>From $20 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience groups">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>5.0 <span class="text-secondary">(1,771) · Italy</span></small></p>
+                  <p class="mb-1">Luca & Lorenzo, Our Family Pasta Recipe</p>
+                  <p class="mb-0"><b>From $20 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience groups">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>5.0 <span class="text-secondary">(1,771) · Italy</span></small></p>
+                  <p class="mb-1">Luca & Lorenzo, Our Family Pasta Recipe</p>
+                  <p class="mb-0"><b>From $20 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience groups">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>5.0 <span class="text-secondary">(1,771) · Italy</span></small></p>
+                  <p class="mb-1">Luca & Lorenzo, Our Family Pasta Recipe</p>
+                  <p class="mb-0"><b>From $20 USD</b> / person</p>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 col-xl-2 experience groups">
+                <div class="img-card mb-2 rounded-3 border border-light">
+                </div>
+                <div class="text-box">
+                  <p class="mb-1"><small>5.0 <span class="text-secondary">(1,771) · Italy</span></small></p>
+                  <p class="mb-1">Luca & Lorenzo, Our Family Pasta Recipe</p>
+                  <p class="mb-0"><b>From $20 USD</b> / person</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
 
 
 
@@ -52,3 +628,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
   </body>
 </html>
+
