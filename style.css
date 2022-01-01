@@ -1,0 +1,70 @@
+.collection {
+  background-image: url(https://picsum.photos/500/500);
+  /* image from https://picsum.photos/, random photos are genereted each time */
+  padding-top: calc(4.5 / 4 * 100%);
+  /* portrait aspect ratio */
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .collection {
+    padding-top: calc(2 / 3.5 * 100%);
+    /* change to landscape aspect ratio on md breakpoint and up */
+  }
+}
+
+.inner {
+  /* overlay the inner <div> exactly on top of its parent */
+  top: 0;
+  left: 0;
+  right: 0;
+   bottom: 0;
+}
+
+.inner h4 {
+  /* copying behavior of official site */
+  max-width: 200px;
+}
+
+.experience-filter .nav-item {
+  flex-shrink: 0;
+}
+
+.experience-filter .nav-item a {
+  font-size: 0.9rem;;
+}
+
+/* experience section */
+.experience .img-card {
+  background-image: url(https://picsum.photos/400/400);
+  /* image from https://picsum.photos/, random photos are genereted each time */
+  padding-top: calc(4.5 / 4 * 100%);
+  /* portrait aspect ratio */
+  background-size: cover;
+  background-position: center;
+}
+
+/* group-3: "Starting in the next 6 hours" */
+
+.starting .img-card-wrapper {
+  /* we need to set the width on the wrapper <div> because the aspect ratio box padding top is based on this value */
+  width: 120px;
+  max-width: 120px;
+  flex-shrink: 0;
+}
+
+.starting .img-card {
+  background-image: url(https://picsum.photos/398/398);
+  /* image from https://picsum.photos/, random photos are genereted each time */
+  padding-top: calc(5 / 4 * 100%);
+  /* a slightly longer portrait aspect ratio */
+  background-size: cover;
+  background-position: center;
+}
+
+.starting .text-box {
+  font-size: 0.9rem;
+}
+
+
